@@ -1,2 +1,2 @@
 # ".github/dependabot.yml" will monitor this file for updates
-ty==0.0.1a12
+ty==0.0.1-alpha.21
