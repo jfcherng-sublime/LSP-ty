@@ -1,3 +1,23 @@
+[project]
+name = "LSP-ty"
+version = "0.0.0"
+description = "LSP helper for ty - an extremely fast Python type checker, written in Rust."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "Jinja2==3.*",
+  "typing-extensions>=4.12",
+]
+
+[dependency-groups]
+dev = [
+  "mypy>=1.14",
+  "ruff>=0.13",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
 [tool.mypy]
 # ignore_missing_imports = False
 check_untyped_defs = true
